@@ -9,7 +9,7 @@ import java.util.Scanner;
 		
 		System.out.println("Player1 Guess the Number");
 		GuessedNo=sc2.nextInt();
-		if(GuessedNo>=0 & GuessedNo<10)
+		if(GuessedNo>=0 && GuessedNo<10)
 		{
            return GuessedNo;
 		}else 
