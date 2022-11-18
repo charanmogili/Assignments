@@ -38,9 +38,13 @@ public class Umpire {
 			{
 				System.out.println("Only Player1 and Player2 won the Game");		
 			}
+			else if (noFromGuesser==noFromPlayer3)
+			{
+				System.out.println("Player1 and Player3 Won");
+			}
 			else
 			{
-				System.out.println("Player1 Won");
+				System.out.println("Player1 won");
 			}
 		}
 		else if(noFromGuesser==noFromPlayer2)
