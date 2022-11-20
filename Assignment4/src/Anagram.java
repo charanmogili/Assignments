@@ -9,7 +9,6 @@ public class Anagram {
 		s2=s2.replace(" ", "");
 		String s3="";
 		String s4="";
-		System.out.println(s1);
 		
 		for(int i=0;i<s1.length();i++)
 		{
@@ -20,9 +19,6 @@ public class Anagram {
 			else
 				s3=s3+s1.charAt(i);
 		}
-		System.out.println(s3);
-		
-		
 		
 		for(int i=0;i<s2.length();i++)
 		{
@@ -33,9 +29,8 @@ public class Anagram {
 			else
 				s4=s4+s2.charAt(i);
 		}
-		System.out.println(s4);
+
 		boolean flag=false;
-		
 		  for(int i=0;i<s3.length();i++)
 		  {
 			 for(int j=0;j<s3.length();j++)
@@ -58,7 +53,7 @@ public class Anagram {
 		  }
 		 if(flag==true)
 		 {
-			 System.out.println(s1+" and "+s2+" are Anagram");
+			 System.out.println(s1+" and "+s2+" are  Anagrams");
 		 }
 	}
 }
