@@ -13,7 +13,6 @@ public class Panagram {
 		{
 			int d=ar[i]-97;
 			ar2[d]++;
-			//ar2[ar[i]-65]++;
 		}
 		for(int i=0;i<ar2.length;i++)
 		{
